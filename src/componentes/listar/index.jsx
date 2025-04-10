@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './style.css'
 
-function Lista() {
+function listar() {
   const [data, setData] = useState([]);
 
   const [busqueda, setBusqueda] = useState('');
@@ -47,4 +47,4 @@ function Lista() {
   );
 }
   
-export default Listar
+export default listar

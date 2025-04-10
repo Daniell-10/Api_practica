@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './style.css'
 
-function Aleatorio(){
+function Detalle(){
 
     return (
         <>
-        <h1>Aleatorio</h1>
+        <h1>Detalle</h1>
         </>
     )
 }
 
-export default Aleatorio
+export default Detalle
